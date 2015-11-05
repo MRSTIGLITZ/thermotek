@@ -11,11 +11,62 @@ main{
 		}
 		.copy{
 			ul{
+				margin-left: 0;
+				overflow: hidden;
 				li{
 					list-style: none;
+					float: left;
+					&:last-child{
+						margin-top: 44px;
+    					margin-left: 10px;
+					}
 				}
 			}
 		}
+		.texto{
+			margin-top: 40px;
+			p{
+				color: $dark-dust;
+				font-size: 14px;
+				span{
+					color: $dark-green;
+				}
+
+			}
+		}
+		.lista{
+			color: $brown;
+			ul{
+				li{
+					font-size: 14px;
+					&.special{
+						color: $dark-green;
+					}
+				}
+			}
+		}
+
 	}
-	
+	.copy-text{
+		margin-top: 30px;
+			p{
+				text-align: center;
+				color: $dust;
+			}
+		}
+
+	.video-thermo{
+		position:relative;
+		padding-bottom:56.25%;
+		padding-top:30px;
+		height:0;
+		overflow:hidden;
+	}
+	.video-thermo iframe, .video-container object, .video-container embed{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
 }

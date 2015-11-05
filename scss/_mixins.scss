@@ -1,10 +1,10 @@
 @mixin linearGradient($left, $right){
     background: $left; /* Old browsers */
-    background: url(../img/header_bg.jpg) no-repeat 100%, -moz-linear-gradient(right,  $left 0%, $right 100%); /* FF3.6+ */
-    background: url(../img/header_bg.jpg) no-repeat 100%, -webkit-gradient(linear, left left left right, color-stop(0%,$left), color-stop(100%,$right)); /* Chrome,Safari4+ */
-    background: url(../img/header_bg.jpg) no-repeat 100%, -webkit-linear-gradient(right,  $left 0%,$right 100%); /* Chrome10+,Safari5.1+ */
-    background: url(../img/header_bg.jpg) no-repeat 100%, -o-linear-gradient(right,  $left 0%,$right 100%); /* Opera 11.10+ */
-    background: url(../img/header_bg.jpg) no-repeat 100%, -ms-linear-gradient(right,  $left 0%,$right 100%); /* IE10+ */
-    background: url(../img/header_bg.jpg) no-repeat 100%, linear-gradient(to right,  $left 0%,$right 100%); /* W3C */
+    background: url(../img/header_bg.jpg) no-repeat 100%, -moz-linear-gradient(right,  $left 15%, $right 75%); /* FF3.6+ */
+    background: url(../img/header_bg.jpg) no-repeat 100%, -webkit-gradient(linear, left left left right, color-stop(15%,$left), color-stop(75%,$right)); /* Chrome,Safari4+ */
+    background: url(../img/header_bg.jpg) no-repeat 100%, -webkit-linear-gradient(right,  $left 15%,$right 75%); /* Chrome10+,Safari5.1+ */
+    background: url(../img/header_bg.jpg) no-repeat 100%, -o-linear-gradient(right,  $left 15%,$right 75%); /* Opera 11.10+ */
+    background: url(../img/header_bg.jpg) no-repeat 100%, -ms-linear-gradient(right,  $left 15%,$right 75%); /* IE10+ */
+    background: url(../img/header_bg.jpg) no-repeat 100%, linear-gradient(to right,  $left 15%,$right 75%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }

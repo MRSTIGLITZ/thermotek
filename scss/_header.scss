@@ -1,0 +1,47 @@
+.header{
+	@include linearGradient(#fbfdf8, #eaf3dc);
+
+	header{
+		.logo{
+			    padding-bottom: 10px;
+			    padding-top: 10px;
+			    margin-left: 70px;
+			    display: block;
+			    max-width: 278px;
+			    width: 278px;
+		}
+		nav.main{
+			margin-top: 93px;
+			margin-left: 80px;
+			ul{
+				overflow: hidden;
+				margin-left: 0;
+				li{
+					display: lock;
+					float: left;
+					font-size: 16px;
+					text-transform: uppercase;
+					list-style: none;
+					&.colored{
+						a{
+							color: $brown;
+						}
+					}
+					a{
+						padding-right: 30px;
+						color: $dark-green;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+
+.border{
+	height: 15px;
+	width: 100%;
+	background: $light-green;
+	border-top: 1px solid $dark-green;
+	border-bottom: 1px solid $dark-green;
+}

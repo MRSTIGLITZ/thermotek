@@ -1,0 +1,21 @@
+body{
+	font-family: $default-font;
+}
+
+main{
+	background: $main;
+	.wrap-main{
+		margin-top: 80px;
+		.thermo-bote{
+
+		}
+		.copy{
+			ul{
+				li{
+					list-style: none;
+				}
+			}
+		}
+	}
+	
+}

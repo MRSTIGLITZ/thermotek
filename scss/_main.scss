@@ -69,4 +69,49 @@ main{
 		width:100%;
 		height:100%;
 	}
+	
+		.form-wrapper{
+			background: $light-gray;
+			margin-top: 57px;
+			-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+			@include roundedCorners(6);
+			h1{
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 18px;
+				font-weight: bold;
+				color: $form-text;
+				padding-left: 30px;
+    			padding-bottom: 15px;
+				padding-top: 20px;
+				border-bottom: 1px solid $dark-gray;
+				margin-bottom: 0;
+			}
+			form{
+				padding: 20px 30px 10px 30px;
+				box-shadow: inset 0 1px 0px white;
+
+				input[type="text"], textarea{
+					@include roundedCorners(6);
+				}
+
+				input[type="submit"]{
+					width: 100%;
+					outline: none;
+					-webkit-appearance:none;
+					@include roundedCorners(4);
+					@include linearGradientTop(#f8f8f8, #ebebeb);
+					padding: 10px;
+					border: 0;
+					-moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    				-webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    				box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    				font-family: Helvetica, Arial, sans-serif;
+    				font-size: 18px;
+    				color: $form-text;
+    				font-weight: bold;
+				}
+		}
+	}
 }

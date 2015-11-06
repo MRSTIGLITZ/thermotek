@@ -6152,3 +6152,61 @@ main {
     left: 0;
     width: 100%;
     height: 100%; }
+  main .form-wrapper {
+    background: #f2f2f2;
+    margin-top: 57px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px; }
+    main .form-wrapper h1 {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: #32302d;
+      padding-left: 30px;
+      padding-bottom: 15px;
+      padding-top: 20px;
+      border-bottom: 1px solid #c7c7c7;
+      margin-bottom: 0; }
+    main .form-wrapper form {
+      padding: 20px 30px 10px 30px;
+      box-shadow: inset 0 1px 0px white; }
+      main .form-wrapper form input[type="text"], main .form-wrapper form textarea {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px; }
+      main .form-wrapper form input[type="submit"] {
+        width: 100%;
+        outline: none;
+        -webkit-appearance: none;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        background: #f8f8f8;
+        /* Old browsers */
+        background: -moz-linear-gradient(right, #f8f8f8 0%, #ebebeb 100%);
+        /* FF3.6+ */
+        background: -webkit-gradient(linear, left top left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #ebebeb));
+        /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(right, #f8f8f8 0%, #ebebeb 100%);
+        /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(right, #f8f8f8 0%, #ebebeb 100%);
+        /* Opera 11.10+ */
+        background: -ms-linear-gradient(right, #f8f8f8 0%, #ebebeb 100%);
+        /* IE10+ */
+        background: linear-gradient(to bottom, #f8f8f8 0%, #ebebeb 100%);
+        /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+        /* IE6-9 */
+        padding: 10px;
+        border: 0;
+        -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        color: #32302d;
+        font-weight: bold; }

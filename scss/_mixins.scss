@@ -8,3 +8,20 @@
     background: url(../img/header_bg.jpg) no-repeat 100%, linear-gradient(to right,  $left 15%,$right 75%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
+
+@mixin linearGradientTop($top, $bottom){
+    background: $top; /* Old browsers */
+    background: -moz-linear-gradient(right,  $top 0%, $bottom 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top left bottom, color-stop(0%,$top), color-stop(100%,$bottom)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(right,  $top 0%,$bottom 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(right,  $top 0%,$bottom 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(right,  $top 0%,$bottom 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  $top 0%,$bottom 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin roundedCorners($size){
+    -webkit-border-radius: $size + px;
+        -moz-border-radius: $size + px;
+        border-radius: $size + px;  
+}

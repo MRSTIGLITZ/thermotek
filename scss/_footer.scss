@@ -1,0 +1,51 @@
+.footer{
+	height: 52px;
+	width: 100%;
+	background:$light-green;
+	border-top: 3px solid $dark-green;
+	position: relative;
+		img{
+			    display: inline-block;
+			    vertical-align: middle;
+			    position: absolute;
+			    top: -161px;
+			    bottom: 21px;
+			    right: 0;
+		}
+}
+
+footer{
+	background: $dust;
+	text-align: center;
+	ul{
+		overflow: hidden;
+		display: inline-block;
+		margin: 0;
+		padding-top: 40px;
+		li{
+			float: left;
+			padding-right: 15px;
+			list-style: none;
+			a{
+				display: block;
+				color: $footer-text;
+				&:hover{
+					color: lighten($footer-text, 10%);
+				}
+				span{
+					padding-left: 15px;
+				}
+			}
+		}
+	}
+	.logo-footer{
+		p{
+			margin-bottom: 0;
+			color: $footer-text;
+			font-size: 14px;
+			opacity: .2;
+			padding-top: 5px;
+			padding-bottom: 30px;
+		}
+	}
+}

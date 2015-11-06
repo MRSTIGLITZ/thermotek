@@ -25,12 +25,20 @@
 					&.colored{
 						a{
 							color: $brown;
+							cursor: pointer;
+							&:hover{
+								color: lighten($brown, 10%);
+							}
 						}
 					}
 					a{
 						padding-right: 30px;
 						color: $dark-green;
 						display: block;
+						cursor: pointer;
+						&:hover{
+							color: lighten($dark-green, 10%);
+						}
 					}
 				}
 			}

@@ -111,7 +111,26 @@ main{
     				font-size: 18px;
     				color: $form-text;
     				font-weight: bold;
+    				margin-bottom: 20px;
 				}
 		}
+	}
+
+	.thermo-bote-right{
+		margin-top: 175px;
+	}
+
+	.info{
+		margin-top: 100px;
+		margin-bottom: 170px;
+			p{
+				text-align: center;
+				font-size: 22px;
+				color: $light-green;
+				span{
+					color: $dust;
+					font-size: 21px;
+				}	
+			}
 	}
 }

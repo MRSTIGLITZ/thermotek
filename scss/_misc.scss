@@ -8,3 +8,26 @@
 	margin-right: 0;
 }
 
+#wrapper{
+	position: relative;
+	min-height: 100%;
+}
+
+.footer-wrap{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.gracias{
+	margin-top: 50px;
+	h1{
+		font-family: $default-font;
+		color: $dark-dust;
+	}
+	h2{
+		font-family: $default-font;
+		color: $dark-dust;
+	}
+}
+
